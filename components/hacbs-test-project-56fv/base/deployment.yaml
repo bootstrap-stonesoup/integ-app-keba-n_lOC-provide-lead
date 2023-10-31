@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: hacbs-test-project-56fv
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/bootstrap/integration1-jbgd-tenant/integ-app-keba/hacbs-test-project-56fv@sha256:cf02c0e9f83495ad9787c47e401f54b57aec9a6a9a067fa70c3bbd0751bb0150
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
